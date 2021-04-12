@@ -1,0 +1,31 @@
+:root{
+    --menu: #002244;
+    --quicksand:'Quicksand', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .menu{
+    background-color: var(--menu);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7rem;
+    align-items:center;
+    font-family: var(--quicksand);
+    color: white;
+    
+  }
+ @media (min-width: 768px){
+     .logo{
+        width: 6rem;
+        margin-left: 1rem;
+     }
+ }
